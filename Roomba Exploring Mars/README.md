@@ -6,5 +6,5 @@ This was a fantastic experience, and I learned a ton about microcontrollers, reg
 
 ### Code to look at
 
-- [main.c]()
-- [movement.c]()
+- [main.c](https://github.com/evanbrummer/portfolio/blob/main/Roomba%20Exploring%20Mars/main_test.c)
+- [movement.c](https://github.com/evanbrummer/portfolio/blob/main/Roomba%20Exploring%20Mars/movement.c)
