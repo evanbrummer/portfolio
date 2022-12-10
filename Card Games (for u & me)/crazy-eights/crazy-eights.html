@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Crazy Eights</title>
+
+    <link rel="stylesheet" href="cards-styles.css">
+    <link rel="stylesheet" href="../styles.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="../GameClasses.js"></script>
+</head>
+
+<body>
+    <div class="space">
+        <input type="button" class="back_button" value="Go Back to Main Menu" onclick="location.href='../start-menu.html'" />
+    </div>
+
+    <!--img id="card_image" src="" class="card_image template" /-->
+    <div class="center">
+        <div id="CPUmessages" class="game_messages8"></div>
+    </div>
+    
+
+    <div class="center">
+        <div id="CPUCards" class="cards_container"></div>
+    </div>
+
+    <div class="game_messages8" id="gameMessagesCPU">
+    </div>
+
+    <div id="deck" class="deck_center">
+        <img id="deckSource" class="back_card_image" src="../cards/cardBack.png" />
+    </div>
+    
+
+    <div class="game_messages8" id="gameMessages">
+        <input id="dealButton" type="button" class="deal_button8" value="Deal" onclick="deal()" />
+    </div>
+
+    <div class="center">
+        <div id="p1Cards" class="cards_container"></div>
+        <div id="p1messages" class="game_messages8"></div>
+        <div id="drawMsg" class="game_messages8"></div>
+    </div>
+
+    <!--div class="scene scene--card">
+        <div class="card">
+            <div class="card__face card__face--front"><img class="card" src="../cards/heartsA.png" /></div>
+            <div class="card__face card__face--back"><img class="card" src="../cards/cardBack.png" /></div>
+        </div>
+    </!--div-->
+
+    <script src="crazy-eights.js"></script>
+</body>
+</html>

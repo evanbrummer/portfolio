@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>War</title>
+	<link rel="stylesheet" href="../styles.css">
+	<script src="../GameClasses.js"></script>
+</head>
+
+<body>
+    <script src="war.js"></script>
+	
+	<div class="space">
+        <input type="button" class="back_button" value="Go Back to Main Menu" onclick="location.href='../start-menu.html'"/>
+    </div>
+	
+	<div class="game_container">
+		<div class="user_drawn_card">
+			<h2 class="game_messages">Player drawn card</h2>
+			<div id="p1-card" class="card_container">
+				<img src="../cards/cardBack.png" width="250" height="325"></img>
+			</div>
+		</div>
+		<div class="CPU_drawn_card">
+			<h2 class="game_messages">CPU drawn card</h2>
+			<div id="p2-card" class="card_container">
+				<img src="../cards/cardBack.png" width="250" height="325"></img>
+			</div>
+		</div>
+		
+		<div class="space"></div>
+		<div class="game_details">
+			<br />
+			<p class="game_messages">Player cards left:</p>
+			<h1 id="p1-info" class="game_messages">26</h1>
+		</div>
+		
+		<div class="space"></div>
+		<div class="game_details">
+			<button type="button" class="deal_button" onclick="gameBoard.play(player1, player2)">draw</button>
+			<p id="game-info" class="game_messages">Press draw to play!</p>
+		</div>
+		
+		<div class="space"></div>
+		<div class="game_details">
+			<br />
+			<p class="game_messages">CPU cards left:</p>
+			<h1 id="p2-info" class="game_messages">26</h1>
+		</div>
+	</div>
+</body>
+</html>

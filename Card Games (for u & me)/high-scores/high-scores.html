@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>High Scores</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+    <div class="space">
+        <input type="button" class="back_button" value="Go Back to Main Menu" onclick="location.href='../start-menu.html'" />
+    </div>
+
+    <div class="title">High Scores</div>
+	<br>
+
+	<div class="row">
+		<div class="column">
+			<h2>Solitaire</h2>
+			<p>Games played: 
+				<p id="S_gp" class="lgNum">0</p>
+			</p>
+			<p>Games won: 
+				<p id="S_w" class="lgNum">0</p>
+			</p>
+			<p>Games lost:
+				<p id="S_l" class="lgNum">0</p>
+			</p>
+		</div>
+		<div class="column">
+			<h2>War</h2>
+			<p>Games played: 
+				<p id="W_gp" class="lgNum">0</p>
+			</p>
+			<p>Games won: 
+				<p id="W_w" class="lgNum">0</p>
+			</p>
+			<p>Games lost:
+				<p id="W_l" class="lgNum">0</p>
+			</p>
+		</div>
+		<div class="column">
+			<h2>Crazy Eights</h2>
+			<p>Games played: 
+				<p id="C_gp" class="lgNum">0</p>
+			</p>
+			<p>Games won: 
+				<p id="C_w" class="lgNum">0</p>
+			</p>
+			<p>Games lost:
+				<p id="C_l" class="lgNum">0</p>
+			</p>
+		</div>
+	</div>
+
+	<br><br><br>
+	<div class="space">
+		<input type="button" class="back_button" value="Clear data" onclick="confirmClear()" />
+	</div>
+
+</body>
+</html>
+
+<script src="high-scores.js"></script>

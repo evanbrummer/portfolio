@@ -1,0 +1,227 @@
+/*Stylesheet for web application components*/
+
+/*Import fonts to be used using Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Roboto+Slab&display=swap');
+
+/*----------------------------------------------------------*/
+/*Components that can be used across pages*/
+.title {
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 90px;
+    color: #000000;
+    text-align: center;
+}
+
+.space {
+    height: 50px;
+}
+
+.back_button {
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    font-size: 18px;
+    background: none;
+    border: 2px solid #393939;
+    border-radius: 7px;
+}
+
+.back_button:hover {
+        cursor: pointer;
+        background: #e4e0e0;
+        transition-duration: 0.3s;
+ }
+ 
+h1 {
+	text-align: center;
+}
+
+.column {
+	font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    font-size: 18px;
+
+	width: 25%;
+	text-align: center;
+	vertical-align: top;
+	padding-left: 6%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+p.ach {
+	color: #000000;
+	font-weight: bold;
+}
+
+p.unach {
+	color: #808080;
+	font-weight: normal;
+}
+
+p.lgNum {
+	font-size: 25px;
+}
+/*----------------------------------------------------------*/
+
+/*----------------------------------------------------------*/
+/*For pick-games.html components*/
+.card_options_holder {
+    text-align: center;
+}
+
+.card_option_holder {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid #393939;
+}
+
+.card_option_holder:hover {
+    background: #96c584;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.card_name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+    padding-top: 5px;
+}
+/*----------------------------------------------------------*/
+
+/*----------------------------------------------------------*/
+/*For start-menu.html components*/
+.title_container{
+	width: 580px;
+	height: 125px;
+	margin: auto;
+}
+	
+.subtitle{
+	font-family: 'BIZ UDPMincho', serif;
+	font-size: 30px;
+	color: #000000;
+	text-align: right;
+}
+		
+.menu_container{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+
+	background: rgba(196, 196, 196, 0.42);
+	box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+}
+		
+.menu_item{
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	text-align: center;
+	width: 400px;
+	height: 75px;
+	padding-top: 5px;
+}
+		
+.menu_item:hover{
+	cursor: pointer;
+	color: green;
+}
+/*----------------------------------------------------------*/
+
+/*----------------------------------------------------------*/
+/*For game page components*/
+.game_container{
+	width: 880px;
+	height: 680px;
+	padding: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid #393939;
+    border-radius: 10px;
+	
+}
+
+.game_details{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+
+	background: rgba(196, 196, 196, 0.42);
+	border-radius: 20px;
+}
+
+.user_drawn_card{
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	top: 45%;
+	left: 5%;
+	transform: translate(0%, -50%);
+	
+	background: rgba(196, 196, 196, 0.42);
+	border-radius: 20px;
+}
+
+.CPU_drawn_card{
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	top: 45%;
+	right: 5%;
+	transform: translate(0%, -50%);
+	
+	
+	background: rgba(196, 196, 196, 0.42);
+	border-radius: 20px;
+}
+
+.card_container{
+	width: 250px;
+	height: 325px;
+}
+
+.deal_button {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    border: 2px solid #393939;
+    border-radius: 7px;
+    margin: 10px;
+	transform: translateX(57px);
+}
+
+.deal_button:hover {
+    cursor: pointer;
+    background: #e4e0e0;
+	transition-duration: 0.3s;
+ }
+
+.game_messages {
+	font-family: 'Roboto Slab', serif;
+    text-align: center;
+	margin: 10px;
+}
+/*----------------------------------------------------------*/
+/*For card components*/
+.card {
+	width: 100px;
+	height: 130px;
+	border: 1px solid black;
+}
+/*----------------------------------------------------------*/
