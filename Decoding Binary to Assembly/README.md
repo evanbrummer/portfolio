@@ -7,4 +7,4 @@ Fortunately I was already pretty familiar with bitwise operations, but this proj
 
 ### My code
 
-- [prog2.java]() lines `1-171`, `187-212`, `233-257`, `316-344`, `363-384`.
+- [prog2.java](https://github.com/evanbrummer/portfolio/blob/main/Decoding%20Binary%20to%20Assembly/prog2.java) lines `1-171`, `187-212`, `233-257`, `316-344`, `363-384`.
