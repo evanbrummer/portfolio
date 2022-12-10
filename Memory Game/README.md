@@ -1,4 +1,4 @@
-# Card Games (for u & me)
+# Memory Game
 
 This was a group project I worked on with 4 other teammates for my very first programming class: S E 185, introduction to C.
 
