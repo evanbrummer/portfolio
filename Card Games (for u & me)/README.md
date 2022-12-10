@@ -1,6 +1,6 @@
 # Card Games (for u & me)
 
-This  was a group project I worked on with 3 other teammates for COM S 319, construction of user interfaces. I was responsible for tracking achievements and high scores between pages, information on how to play the games and the catchy soundtrack on the start menu.
+This was a group project I worked on with 3 other teammates for COM S 319, construction of user interfaces. I was responsible for tracking achievements and high scores between pages, information on how to play the games and the catchy soundtrack on the start menu.
 
 Checking for achievements required me to have a full understanding of each game's source code written by my teammates, and then implement my code without affecting theirs. As a result, I had a hand in almost every file of the project.
 

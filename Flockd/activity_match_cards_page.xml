@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#76CEFF"
+    tools:context=".MatchCardsPage">
+
+    <Button
+        android:id="@+id/toMatchList"
+        android:layout_width="111dp"
+        android:layout_height="49dp"
+        android:background="#00FA91"
+        android:fontFamily="@font/saira_stencil_one"
+        android:onClick="openMatchListPage"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+    <ImageView
+        android:id="@+id/other_pfp"
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/matchTitle"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/xp" />
+
+    <TextView
+        android:id="@+id/matchTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/saira_stencil_one"
+        android:text="MATCH"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_decline"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="#FF5151"
+        android:fontFamily="@font/saira_stencil_one"
+        android:text="Decline"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/other_pfp"
+        app:layout_constraintVertical_bias="0.6"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="0dp" />
+
+    <Button
+        android:id="@+id/btn_accept"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="#00FF55"
+        android:fontFamily="@font/saira_stencil_one"
+        android:text="Accept"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/other_pfp"
+        app:layout_constraintVertical_bias="0.6"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/other_user"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/sarala_bold"
+        android:text="..."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/other_pfp" />
+
+    <TextView
+        android:id="@+id/other_bio"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="Bio"
+        android:gravity="center|top"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_decline"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/other_user" />
+</androidx.constraintlayout.widget.ConstraintLayout>

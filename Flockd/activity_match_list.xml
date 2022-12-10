@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MatchList"
+
+    android:background="#76CEFF">
+
+    <Button
+        android:id="@+id/toMatchList2"
+        android:layout_width="111dp"
+        android:layout_height="49dp"
+        android:background="#00FA91"
+        android:fontFamily="@font/saira_stencil_one"
+        android:onClick="backButtonToMainScreen"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+    <TextView
+        android:id="@+id/MatchesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/saira_stencil_one"
+        android:text="My Matches"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+
+    <TextView
+        android:id="@+id/NoMatches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sarala_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/toMatchCards"
+        android:layout_width="193dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        android:background="#00FA91"
+        android:fontFamily="@font/saira_stencil_one"
+        android:onClick="openMatchCards"
+        android:text="Find Matches"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MatchesTitle"
+        app:layout_constraintVertical_bias="0.861" />
+
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="425dp"
+        app:layout_constraintBottom_toTopOf="@+id/toMatchCards"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MatchesTitle">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/MatchListRV"
+            android:layout_width="match_parent"
+            android:layout_height="569dp" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
