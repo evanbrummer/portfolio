@@ -1,2 +1,2 @@
 # Portfolio
-Bits and pieces of projects I've worked on over the years. Projects are separated into folders.
+Bits and pieces of class projects I've worked on. Projects are separated into folders.
