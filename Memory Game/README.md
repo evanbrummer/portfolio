@@ -6,4 +6,4 @@ Being beginner programmers, we all just worked on the parts we were comfortable 
 
 ### My code: 
 
-- [AA_FinalProject.c]() lines `52-190`
+- [AA_FinalProject.c](https://github.com/evanbrummer/portfolio/blob/main/Memory%20Game/AA_FinalProject.c) lines `52-190`
