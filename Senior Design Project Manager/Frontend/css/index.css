@@ -1,0 +1,213 @@
+@font-face {
+  font-family: Inter;
+  src: url('./Inter-VariableFont_slnt\,wght.ttf');
+}
+
+body {
+  font-family: Inter;
+  src: url('./Inter-VariableFont_slnt\,wght.ttf');
+}
+
+.login-page {
+  width: "100%";
+  height: "100vh";
+  background-color: '#ffffff';
+  text-align: center;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  align-content: center;
+  margin-top: 5%;
+  width: 40%;
+  margin-left: 30%;
+  height: 75vh;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1;
+  border-radius: 9px;
+  box-shadow: 3px 4px 17px rgba(0, 0, 0, 0.25);
+}
+
+.sign-in-header {
+  vertical-align: center;
+  color: #000;
+  font-weight: 450;
+  font-size: 27px;
+  font-family: 'Inter';
+}
+
+.help {
+  color: #5b5b5b;
+  text-decoration-line: underline;
+  text-align: center;
+  margin-top: 5%;
+  text-align: center;
+}
+
+
+.table-header {
+  background-color: #a71930;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: white !important;
+  vertical-align: inherit;
+  text-align: center;
+  padding: 8px;
+}
+
+.table-header-16 {
+  color: white !important;
+  background-color: #a71930;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  vertical-align: inherit;
+  padding: 16px;
+}
+
+.table-header-16-Action {
+  color: white !important;
+  background-color: #a71930;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  vertical-align: inherit;
+  padding: 16px;
+  text-align: right;
+}
+
+.table-container {
+  width: 70%;
+  background-color: #ffffff;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+h1 {
+  font-family: Inter;
+  color: #000000;
+}
+
+.table-label {
+  /* vertical-align: middle; */
+  color: #000000;
+  /* font-weight: 490; */
+  /* font-size: 25px; */
+  /* margin-bottom: 5vh; */
+  font-family: Inter;
+}
+
+.table-label-weight-500 {
+  vertical-align: middle;
+  color: #000000;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5vh;
+  font-family: Inter;
+  margin-left: 0;
+}
+.table-label-weight-100 {
+  vertical-align: middle;
+  color: #000000;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 2vh;
+  font-family: Inter;
+  margin-left: 0;
+}
+
+.page-header {
+  vertical-align: middle;
+  color: black;
+  font-weight: 490;
+  font-size: 25px;
+  margin-bottom: 5vh;
+  font-family: Inter;
+}
+
+.nav-link {
+  margin-left: 4px;
+  font-family: Inter;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  transition: background-color 0.1s ease-in-out;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #5b5b5b;
+}
+
+.card {
+  align-self: center;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  height: 70%;
+  background-color: #ffffff;
+  border: 1px solid #5b5b5b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+.card-text-align-left {
+  align-self: center;
+  text-align: left;
+  width: 100%;
+  height: 70%;
+  background-color: #ffffff;
+  border: 1px solid #5b5b5b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+.card-left-align-no-border {
+  align-self: center;
+  text-align: left;
+  width: 100%;
+  height: 70%;
+  background-color: #ffffff;
+}
+
+
+.container {
+  align-self: center;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  height: 70%;
+  background-color: #ffffff;
+}
+
+.bidding-header {
+  color: #000000;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 5vh;
+  font-family: Inter;
+}
+
+.login-error {
+  font-family: Inter;
+  font-weight: bold;
+  color: red;
+}
+
+.dead-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set container height to full viewport */
+}
