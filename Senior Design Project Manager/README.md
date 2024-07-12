@@ -6,12 +6,12 @@ We learned a lot along the way. I really enjoyed being able to work all over the
 
 ### Some of the things I worked on
 
-#### React Frontend
-- [App.js]()
-- [NavBar.js]()
-- [Dashboard.js]()
-- [UserContext.js]()
+#### ReactJS Frontend
+- [App.js](https://github.com/evanbrummer/portfolio/blob/main/Senior%20Design%20Project%20Manager/Frontend/App.js)
+- [NavBar.js](https://github.com/evanbrummer/portfolio/blob/main/Senior%20Design%20Project%20Manager/Frontend/components/NavBar.js)
+- [Dashboard.js](https://github.com/evanbrummer/portfolio/blob/main/Senior%20Design%20Project%20Manager/Frontend/user%20pages/Dashboard.js)
+- [UserContext.js](https://github.com/evanbrummer/portfolio/blob/main/Senior%20Design%20Project%20Manager/Frontend/UserContext.js)
 
 #### Spring Boot Backend
-- [UserController.java]()
-- [UserEntity.java]()
+- [UserController.java](https://github.com/evanbrummer/portfolio/blob/main/Senior%20Design%20Project%20Manager/Backend/controller/UserController.java)
+- [UserEntity.java](https://github.com/evanbrummer/portfolio/blob/main/Senior%20Design%20Project%20Manager/Backend/entity/UserEntity.java)
